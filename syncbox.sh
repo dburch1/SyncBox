@@ -5,15 +5,12 @@
 ## ***** SyncBox *****                                                        ##
 ##                                                                            ##
 ## Sync data and files between hard drives on two different machines          ##
-## This runs on Box A                                                         ##
-## 10/21/18                                                                   ##
+## This runs on machine A                                                     ##
 ##                                                                            ##
-## Dont need to mess with iptables.  Already set permanent firewalld rule.    ##
+## May need to edit iptables.                                                 ##
 ##                                                                            ##
 ## Does not backup or sync hidden directories/files!!                         ##
 ##                                                                            ##
-## 12/3/18 Did not run with sshd exit/error code 255                          ##
-## Laptop was also not connected via cat5 cable, which seems to be the prob.  ##
 ################################################################################
 
 # Box B should already have started sshd
